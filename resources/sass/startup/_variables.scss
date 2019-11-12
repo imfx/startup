@@ -1,0 +1,89 @@
+// 
+// variables.scss
+// Use this to overwrite Bootstrap
+//
+
+// Example of a variable override to change background color
+// Remove the "//" to comment it in and see it in action!
+$type-300:						300;
+$type-400:						400;
+$type-500:						500;
+$type-600:						600;
+$type-700:						700;
+
+// $gray-100:						#f8f9fd !default;
+// $gray-900:						#312B40 !default;
+// $gray-600:						#768299;
+// $bg-color:						#F9F9FD;
+
+// $primary:						#4748C5;
+// $secondary:						$bg-color;
+// $success:						#31CF65;
+// $info:							#30CEF5;
+// $warning:						#FFCB4A;
+// $danger:						#F55753;
+// $light:							$gray-100;
+// $dark:							$gray-900;
+// $pink:							#FE6E98;
+// $custom:						#1fb6ff;
+// $default:						#FFFFFF;
+
+// // Overrides
+// $theme-colors: (
+// 	"primary": $primary,
+// 	"secondary": $secondary,
+// 	"success": $success,
+// 	"info": $info,
+// 	"warning": $warning,
+// 	"danger": $danger,
+// 	"light": $light,
+// 	"dark": $dark,
+// 	"pink": $pink,
+// 	"custom": $custom,
+// );
+
+$font-family-sans-serif: 'DM Sans', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+$font-weight-light:				$type-400 !default;
+$font-weight-normal:			$type-400 !default;
+$font-weight-bold:				$type-500 !default;
+
+// Alerts
+
+$alert-padding-y:				1.15rem !default;
+$alert-border-radius:			0 !default;
+$alert-border-width:			0 !default;
+$alert-link-font-weight:		$font-weight-bold !default;
+
+$alert-bg-level:				0 !default;
+$alert-border-level:			0 !default;
+$alert-color-level:				-12 !default;
+
+// Cards
+
+$card-border-color:				#e6e6e6;
+
+// Inputs
+
+$input-btn-padding-y:         .5rem !default;
+$input-btn-padding-x:         .85rem !default;
+
+$input-btn-padding-y-sm:      .3rem !default;
+$input-btn-padding-x-sm:      .55rem !default;
+
+$input-btn-padding-y-lg:      .65rem !default;
+$input-btn-padding-x-lg:      1rem !default;
+
+$path-to-img: '/vendor/nexus/assets/img' !default;
+
+// Avatar
+
+$avatar-size-base: 3rem !default;
+$avatar-size-xs: 1.625rem !default;
+$avatar-size-sm: 2.5rem !default;
+$avatar-size-lg: 4rem !default;
+$avatar-size-xl: 5.125rem !default;
+$avatar-size-xxl: 8rem !default;
+
+$avatar-title-bg: #ececec !default;
+$avatar-title-color: white !default;

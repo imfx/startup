@@ -1,0 +1,18 @@
+/**
+ * Startup
+ *
+ * Custom variables followed by Startup variables followed by Bootstrap variables
+ * to ensure cascade of styles.
+ */
+
+// Bootstrap functions
+@import '../../node_modules/bootstrap/scss/functions';
+
+// Custom variables
+@import 'startup/variables';
+
+// Bootstrap core
+@import '../../node_modules/bootstrap/scss/bootstrap';
+
+// Startup core
+@import 'startup/startup';

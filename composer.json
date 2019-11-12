@@ -1,0 +1,54 @@
+{
+    "name": "imfx/startup",
+    "description": "Startup Basic Boilerplate",
+    "keywords": [ "startup", "boilerplate", "laravel", "php"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Felix Ayala",
+            "email": "hi@felixaya.la",
+            "homepage": "http://felixaya.la",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://github.com/imfx/startup",
+    "require": {
+        "php": ">=7.2",
+        "illuminate/support": "^5.7.15 | 5.8.* | ^6.0",
+        "laravelcollective/html":"^5.8.0 | ^6.0"
+    },
+    "require-dev": {
+        "cybercog/laravel-whoops-editor": "^3.0",
+        "phpunit/phpunit": ">=5.4.3",
+        "squizlabs/php_codesniffer": "^2.3",
+        "laravel/ui": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Startup\\": "src"
+        },
+        "files": [
+            "src/Helpers/app_helper.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Startup\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Startup\\StartupServiceProvider"
+            ],
+            "aliases": {
+                "Startup": "Startup\\Facades\\Startup"
+            }
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
