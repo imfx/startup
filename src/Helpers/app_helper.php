@@ -1,9 +1,24 @@
 <?php
 
+
+
 if (! function_exists('form')) {
     function form()
     {
         return app(\Collective\Html\FormBuilder::class);
+    }
+}
+
+if (! function_exists('attr')) {
+    function attr($attributes = null)
+    {
+    	if (is_null($attributes)) return;
+    	
+        foreach($attributes as $key => $value){
+			$attributes[$key] = $value === true ? $key : "$key=\"" . addslashes($value) . "\"";
+		}
+
+		return implode(" ", $attributes);
     }
 }
 
